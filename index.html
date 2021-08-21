@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Jejak Kembara</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
@@ -16,6 +17,8 @@
                 <p>Pusta(ka)+Kawan – Putting the <em>Kawan</em> in <em>Pustaka</em></p>
                 <p><em>Pustaka</em>- n. पुस्तक; [pus.ta.ka]: book</p>
                 <p><em>Kawan</em>- n. كاون; [ka.wan]: friends</p>
+                <button onclick="setbgtored('red')">red</button>
+                <button onclick="setbgtored('blue')">blue</button>
             <h2 style="background-color: limegreen;">Introduction</h2>
                 <img src="images/pustaka.PNG">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia itaque omnis! Eligendi, non sapiente minus blanditiis ad natus cupiditate quos, possimus cumque esse veritatis veniam suscipit alias dolor eos magnam dicta tempora quisquam a? Neque nisi perferendis quam inventore dicta porro voluptates debitis cupiditate iure! Est esse adipisci aut ducimus quas, quasi vitae voluptate quam, deleniti dolores soluta aliquid vero facilis, sunt dolor. Magni alias veniam, rem quo adipisci voluptatem nostrum dolor totam deleniti itaque placeat omnis et illo id saepe animi, facere, ratione nihil corporis cupiditate labore inventore odit architecto eius? Ab accusantium consequatur vitae facere eveniet quidem placeat odit? Ratione deserunt minima officia minus provident, doloremque placeat fugit qui eum praesentium tempora dolore quos nihil ad veritatis doloribus ullam. Corporis enim adipisci obcaecati sunt exercitationem odit rerum, numquam itaque nesciunt autem fuga cupiditate deleniti nisi eveniet aliquam laudantium temporibus tempora optio architecto molestiae consequuntur officiis. Sit, alias natus adipisci ea ad ipsa ducimus neque a earum laudantium similique autem distinctio necessitatibus maxime labore enim ex illum maiores, libero omnis officiis officia excepturi. Quaerat minima, dolor reprehenderit at quasi distinctio, asperiores fugiat aspernatur eveniet eum totam repudiandae quis molestias quam sapiente perspiciatis assumenda consectetur nobis, ea repellat eaque?</p>
@@ -46,5 +49,10 @@
                 <span>shares</span>
             </ul></li>
         </aside>
+        <script>
+            function setbgtored(valcolor) {
+                $("h2").css("background-color", valcolor)
+            }
+        </script>
     </body>
 </html>
