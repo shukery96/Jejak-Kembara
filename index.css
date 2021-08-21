@@ -1,0 +1,29 @@
+img {
+    width: 100px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding: 50px;
+    border: 10px solid black;
+    background: lightgray;
+}
+}
+p.username {
+    font-weight: bold;
+}
+em {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+div {
+    background-image: image();
+}
+#dpsp-floating-sidebar
+}
